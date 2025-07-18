@@ -170,11 +170,37 @@ margin-bottom: 10px;
 }
 .feature-title{
     font-size: 1.68rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#expariance-badge{
+    padding: 45px 42px;
+    font-weight: 700;
+    margin-left: -90px;
+    margin-top: -160px;
+}
+#expariance-year{
+    font-size:4rem;
+
+}
+.feature-architect img{
+    width: 100%;
 }
 
 
 .features{
     gap: 140px;
+}
+
+.footer-style{
+    font-size: .8rem;
+   height: 40px;
+   padding: 20px; 
+    justify-items: center;
+    align-items: center;
+      background-color:rgba(255, 144, 14, 0.1);
+      margin: 0 auto;
+      width: 1200px;
 }
 
 
@@ -183,12 +209,14 @@ margin-bottom: 10px;
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links,
-   .teams {
+   .teams,
+   .features {
         flex-direction: column;
     }
     .team-img-container, 
     .facts-container,
-    .sponsor-companies{
+    .sponsor-companies
+    {
         grid-template-columns: repeat(1,1fr);
     }
     .facts-container, .sponsor-companies{
@@ -197,6 +225,10 @@ margin-bottom: 10px;
     }
     .our-features{
       margin-left: 20px;  
+    }
+    #expariance-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     
