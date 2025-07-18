@@ -210,7 +210,8 @@ margin-bottom: 10px;
     .navbar, 
     .nav-links,
    .teams,
-   .features {
+   .features
+    {
         flex-direction: column;
     }
     .team-img-container, 
@@ -230,13 +231,23 @@ margin-bottom: 10px;
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-style{
+        
+        width: 75%;
+        height: 30px;
+        font-size: 10px;
+
+     justify-content: center;
+
+    }
 
     
 }
 /* mediam device */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams,
+    .features{
      flex-direction: column;
     }
     .our-features{
@@ -247,6 +258,19 @@ margin-bottom: 10px;
         gap: 20px;
         justify-items: center;
         
+    }
+      #expariance-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer-style{
+        
+        width: 75%;
+        height: 30px;
+        font-size: 10px;
+
+     justify-content: center;
+
     }
     
 }
